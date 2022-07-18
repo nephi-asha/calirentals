@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-t@u05kj+71ou^sfn6%9h4$x(3v94w56zulm5w=f&e@+e^5am_#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://calirentals.herokuapp.com/']
 
 
 # Application definition
@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'calirentals.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'calirentals',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
-        'PORT': ''
+        'NAME': 'dbl5d2th9uuafe',
+        'USER': 'cnwjhwajmukrma',
+        'PASSWORD': 'b298ed72c2ce4b72161a836d168fc116a74cda930c86feebc0d3123707210cde',
+        'HOST': 'ec2-52-205-61-230.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
